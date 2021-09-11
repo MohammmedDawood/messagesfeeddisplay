@@ -6,12 +6,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Sorting and Visualizing MessagesFeed</h1>
         <div className={styles.grid}>
+          <h1 className={styles.description}>
+            Sorting and Visualizing MessagesFeed
+          </h1>
           <Link href="/googlemap">
             <a className={styles.card}>
               <h2>Google Map &rarr;</h2>
-              <p>
+              <p className={styles.linkparagraph}>
                 Integrate Google Maps APIs with Next.js features using
                 google-map-react to display message feeds as markers.
               </p>
@@ -20,15 +22,15 @@ export default function Home() {
           <Link href="/leaflet">
             <a className={styles.card}>
               <h2>Leaflet &rarr;</h2>
-              <p>
+              <p className={styles.linkparagraph}>
                 Integrate Leaflet APIs with Next.js features using
                 google-map-react to display message feeds as markers.
               </p>
             </a>
           </Link>
         </div>
+        <Footer />
       </main>
-      <Footer />
     </div>
   );
 }

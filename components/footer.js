@@ -7,7 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className={styles.footer}>
-        <h1> Created By Dawood </h1>
+        <h1 className={styles.description}> Created By Dawood </h1>
       </footer>
     );
   }
