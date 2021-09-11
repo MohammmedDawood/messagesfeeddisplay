@@ -1,12 +1,7 @@
 import Footer from "../components/footer";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import dynamic from "next/dynamic";
-
-var LeafletCustomMap = dynamic(
-  () => import("../components/leaflet/leafletcustommap"),
-  { ssr: false }
-);
+import MapboxCustomMap from "../components/mapbox/mapboxcustommap";
 
 export default function Leaflet() {
   return (
@@ -16,9 +11,9 @@ export default function Leaflet() {
           <h2>&larr; Back </h2>
         </a>
       </Link>
-      <h1 className={styles.header}>Using leaflet</h1>
+      <h1 className={styles.header}>Using Mapbox</h1>
 
-      <LeafletCustomMap />
+      <MapboxCustomMap />
       <Footer />
     </div>
   );

@@ -7,14 +7,14 @@
   width: 2vw;
 }
 
-@media screen and (max-width: 500px) {
-  .marker {
-    width: 6vw;
-  }
-}
 @media screen and (max-width: 900px) {
   .marker {
     width: 4vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .marker {
+    width: 6vw;
   }
 }
 

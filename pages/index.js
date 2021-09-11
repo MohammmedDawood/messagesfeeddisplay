@@ -28,6 +28,15 @@ export default function Home() {
               </p>
             </a>
           </Link>
+          <Link href="/mapbox">
+            <a className={styles.card}>
+              <h2>Mapbox &rarr;</h2>
+              <p className={styles.linkparagraph}>
+                Integrate Mapbox APIs with Next.js features using
+                google-map-react to display message feeds as markers.
+              </p>
+            </a>
+          </Link>
         </div>
         <Footer />
       </main>

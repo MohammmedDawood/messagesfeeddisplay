@@ -35,6 +35,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## I have used Google Map React
 
+- npm install --save google-map-react
+
 Check out our [Google Map React](https://github.com/google-map-react) for more details.
 
 ## I have used React Leaflet
@@ -43,3 +45,9 @@ Check out our [Google Map React](https://github.com/google-map-react) for more d
 - npm i leaflet
 
 Check out our [React Leaflet](https://react-leaflet.js.org/) for more details.
+
+## I have used Mapbox GL JS in a React app
+
+- npm install mapbox-gl --save
+
+Check out our [Mapbox GL JS](https://docs.mapbox.com/help/tutorials/use-mapbox-gl-js-with-react/) for more details.
