@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        <h1>Sorting and Visualizing MessagesFeed</h1>
         <div className={styles.grid}>
           <Link href="/googlemap">
             <a className={styles.card}>
